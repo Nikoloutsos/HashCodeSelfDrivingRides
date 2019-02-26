@@ -30,8 +30,8 @@ class main {
 			}
 		}
 		System.out.println("hey world");
-info = Parser.readFromFile();
-		Validation.validate("test.txt", info.rides, info.bonus, info.maxNumOfSteps);
+		info = Parser.readFromFile();
+		
 
 		MyWriter.writeToFile();
 	}
